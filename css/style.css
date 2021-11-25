@@ -1,9 +1,48 @@
+/* --- pre-nav --- */
 .pre-nav{
     position: fixed;
     height: 50px;
     line-height: 50px;
 }
 
+.pre-nav .container .row {
+    position: relative;
+}
+
+.logo-s {
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+/* --- pre-nav --- */
+
+/* --- nav --- */
 nav{
     margin-top: 50px;
+}
+
+.only-lg{
+    display: none;
+}
+/* --- nav --- */
+
+
+
+
+
+/* --- responsive --- */
+
+@media only screen and (min-width: 992px){
+    nav button {
+        display: none;
+    }
+    .only-lg{
+        display: inline-block;
+        flex-grow: 1;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: flex-start;
+    }
+
 }

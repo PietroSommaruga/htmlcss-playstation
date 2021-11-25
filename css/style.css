@@ -1,7 +1,22 @@
 .white-text {
-    color: rgba(255, 255, 255, 0.788);
+    color: rgba(255, 255, 255, 0.966);
 }
 
+.gray-text{
+    color: rgb(160, 160, 160);
+}
+
+.blue{
+    color: rgb(11, 27, 248);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    background: rgb(27, 42, 255);
+    padding: 5px 10px;
+}
 /* --- pre-nav --- */
 .pre-nav{
     position: fixed;
@@ -56,15 +71,38 @@ nav{
 /* --- returnal --- */
 .quadr img{
     border-radius: 20px;
-    
-
 }
 /* --- returnal --- */
+
+/* --- console --- */
+.md-only{
+     display: none;
+     
+}
+/* --- console --- */
+
+
 
 
 
 
 /* --- responsive --- */
+@media only screen and (min-width: 768px){
+    .console{
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .ps-foto{
+        width: 20%;
+    }
+
+    .md-only{
+        display: inline-block;
+        text-align: center;
+    }
+}
 
 @media only screen and (min-width: 992px){
     nav button {

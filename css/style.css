@@ -69,15 +69,14 @@ nav{
 /* --- returnal --- */
 
 /* --- returnal --- */
-.quadr img{
+.library-5 img{
     border-radius: 20px;
 }
 /* --- returnal --- */
 
 /* --- console --- */
 .md-only{
-     display: none;
-     
+    display: none;
 }
 /* --- console --- */
 
@@ -100,7 +99,7 @@ nav{
 
     .md-only{
         display: inline-block;
-        text-align: center;
+        
     }
 }
 

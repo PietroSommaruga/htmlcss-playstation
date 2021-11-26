@@ -109,11 +109,29 @@ nav{
   }
 /* --- nuove uscite --- */
 
-.giovanni{
-    height: 200px;
-    background: black;
-    border: 1px solid white;
+/* --- plus --- */
+.plus{
+    background: rgba(179, 179, 179, 0.568);
 }
+
+/* .plus-col-container{} */
+
+.plus-img-logo{
+    width: 80%;
+}
+
+.plus-text span {
+    flex-grow: 1;
+}
+
+.soul img{
+    
+    object-fit: cover;
+}
+/* --- plus --- */
+
+
+
 
 
 /* --- responsive --- */

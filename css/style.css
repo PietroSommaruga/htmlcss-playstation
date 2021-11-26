@@ -14,7 +14,7 @@ button {
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    background: rgb(27, 42, 255);
+    background: #0070d1;
     padding: 5px 10px;
 }
 /* --- pre-nav --- */
@@ -120,15 +120,36 @@ nav{
     width: 80%;
 }
 
-.plus-text span {
-    flex-grow: 1;
-}
 
 .soul img{
     
     object-fit: cover;
 }
 /* --- plus --- */
+
+/* --- playstion-now --- */
+.avengers{
+    background: rgb(23, 23, 107);
+
+}
+/* --- playstion-now --- */
+
+/* --- social --- */
+.social img{
+    border-radius: 10px;
+}
+/* --- social --- */
+
+/* --- footer --- */
+footer{
+    background: rgb(11, 27, 248);
+}
+
+footer .interactive img{
+    width: 100px;
+}
+/* --- footer --- */
+
 
 
 

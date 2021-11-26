@@ -80,9 +80,40 @@ nav{
 }
 /* --- console --- */
 
+/* --- console --- */
+.jumbo-bg-2 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  }
+  
+/* --- console --- */
 
+/* --- nuove uscite --- */
+.space-padding {
+    padding: 30px 0 20px 0;
+  }
+  
+  
+  
+  .container-img-games > img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .container-img-games span {
+    margin-top: 10px;
 
+  }
+/* --- nuove uscite --- */
 
+.giovanni{
+    height: 200px;
+    background: black;
+    border: 1px solid white;
+}
 
 
 /* --- responsive --- */

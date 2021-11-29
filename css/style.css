@@ -81,6 +81,16 @@ nav{
 nav span:hover{
     color: rgb(179, 179, 179);
 }
+
+
+.lg-left ul .nav-item {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* .dropdown-menu  li{
+    display: block;
+} */
 /* --- nav --- */
 
 .ps-foto{
@@ -91,7 +101,6 @@ nav span:hover{
 .ps-foto:hover{
     opacity: 100%;
 }
-
 
 /* --- returnal --- */
 .jumbo{

@@ -14,6 +14,10 @@
     background-color:  rgb(230, 230, 230);
 }
 
+/* --- color --- */
+
+
+/* --- button --- */
 a.btn{
     border-radius: 40px;
 }
@@ -33,6 +37,9 @@ a.bg-white:hover{
 .btn.bg-red{
     background-color: rgba(240, 50, 50, 0.815);
 }
+/* --- button --- */
+
+
 /* --- pre-nav --- */
 .pre-nav {
     position: fixed;
@@ -50,6 +57,7 @@ a.bg-white:hover{
     width: 100px;
 }
 /* --- pre-nav --- */
+
 
 /* --- nav --- */
 nav{
@@ -81,8 +89,8 @@ nav span:hover{
 
 .ps-foto:hover{
     opacity: 100%;
-    
 }
+
 
 /* --- returnal --- */
 .jumbo{
@@ -95,16 +103,15 @@ nav span:hover{
     position: relative;
 }
 
-.rompi{
+#returnal .col{
     position: absolute;
     bottom: 0;
     left: 0;    
 }
-
 /* --- returnal --- */
 
-/* --- returnal --- */
-.library-5 a img{
+/* --- library-6 --- */
+.library-6 a img{
     border-radius: 20px;
     width: 100%;
     border: 2px solid transparent;
@@ -114,11 +121,11 @@ nav span:hover{
     transition: all 0.8s ease-in-out;
 }
 
-.library-5 a:hover img{
+.library-6 a:hover img{
     border-color: blue;
     top: -10px;
 }
-/* --- returnal --- */
+/* --- library-6 --- */
 
 /* --- console --- */
 .md-only{

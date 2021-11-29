@@ -78,8 +78,8 @@ nav{
     padding: 0 10px;
 }
 
-nav span:hover{
-    color: rgb(179, 179, 179);
+.nav-link{
+padding: .5rem 10px;
 }
 
 

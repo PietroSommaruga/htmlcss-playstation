@@ -1,3 +1,4 @@
+
 .white-text {
     color: rgba(255, 255, 255, 0.966);
 }
@@ -179,7 +180,6 @@ nav span:hover{
 /* --- playstion-now --- */
 .avengers{
     background: rgb(23, 23, 107);
-
 }
 /* --- playstion-now --- */
 
@@ -187,6 +187,14 @@ nav span:hover{
 /* --- social --- */
 .social img{
     border-radius: 10px;
+}
+
+.social a {
+    transition: all 1s;
+}
+
+.social a:hover {
+    opacity: 80%;
 }
 /* --- social --- */
 
@@ -209,11 +217,6 @@ footer a:hover{
     color: rgba(32, 32, 32, 0.616);
 }
 /* --- footer --- */
-
-
-
-
-
 
 /* --- responsive --- */
 @media only screen and (min-width: 768px){
